@@ -14,6 +14,12 @@
 		EE9AC0221CEF4D990083E1BE /* PopoverControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC0201CEF4D990083E1BE /* PopoverControl.xcdatamodeld */; };
 		EE9AC0241CEF4D990083E1BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9AC0231CEF4D990083E1BE /* Assets.xcassets */; };
 		EE9AC0271CEF4D990083E1BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9AC0251CEF4D990083E1BE /* LaunchScreen.storyboard */; };
+		EE9AC0301CEF57850083E1BE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC02F1CEF57850083E1BE /* DetailViewController.m */; };
+		EE9AC0321CEF5EC10083E1BE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9AC0311CEF5EC10083E1BE /* Storyboard.storyboard */; };
+		EE9AC0361CEF90E10083E1BE /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC0351CEF90E10083E1BE /* DataViewController.m */; };
+		EE9AC0391CEF92810083E1BE /* DataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC0381CEF92810083E1BE /* DataTableViewController.m */; };
+		EE9AC03C1CEF9D290083E1BE /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC03B1CEF9D290083E1BE /* DatePickerViewController.m */; };
+		EE9AC03F1CEFA0060083E1BE /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9AC03E1CEFA0060083E1BE /* EducationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,17 @@
 		EE9AC0231CEF4D990083E1BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE9AC0261CEF4D990083E1BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE9AC0281CEF4D990083E1BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9AC02E1CEF57850083E1BE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EE9AC02F1CEF57850083E1BE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EE9AC0311CEF5EC10083E1BE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		EE9AC0341CEF90E10083E1BE /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		EE9AC0351CEF90E10083E1BE /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		EE9AC0371CEF92810083E1BE /* DataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewController.h; sourceTree = "<group>"; };
+		EE9AC0381CEF92810083E1BE /* DataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewController.m; sourceTree = "<group>"; };
+		EE9AC03A1CEF9D290083E1BE /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		EE9AC03B1CEF9D290083E1BE /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		EE9AC03D1CEFA0060083E1BE /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
+		EE9AC03E1CEFA0060083E1BE /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +79,11 @@
 			children = (
 				EE9AC0171CEF4D990083E1BE /* AppDelegate.h */,
 				EE9AC0181CEF4D990083E1BE /* AppDelegate.m */,
-				EE9AC01A1CEF4D990083E1BE /* ViewController.h */,
-				EE9AC01B1CEF4D990083E1BE /* ViewController.m */,
+				EE9AC0371CEF92810083E1BE /* DataTableViewController.h */,
+				EE9AC0381CEF92810083E1BE /* DataTableViewController.m */,
+				EEB985751CF05F33007CC838 /* Popovers */,
+				EE9AC0311CEF5EC10083E1BE /* Storyboard.storyboard */,
+				EE9AC0331CEF90B40083E1BE /* TestViewControllers */,
 				EE9AC01D1CEF4D990083E1BE /* Main.storyboard */,
 				EE9AC0231CEF4D990083E1BE /* Assets.xcassets */,
 				EE9AC0251CEF4D990083E1BE /* LaunchScreen.storyboard */,
@@ -80,6 +100,30 @@
 				EE9AC0151CEF4D990083E1BE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE9AC0331CEF90B40083E1BE /* TestViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9AC02E1CEF57850083E1BE /* DetailViewController.h */,
+				EE9AC02F1CEF57850083E1BE /* DetailViewController.m */,
+				EE9AC01A1CEF4D990083E1BE /* ViewController.h */,
+				EE9AC01B1CEF4D990083E1BE /* ViewController.m */,
+			);
+			name = TestViewControllers;
+			sourceTree = "<group>";
+		};
+		EEB985751CF05F33007CC838 /* Popovers */ = {
+			isa = PBXGroup;
+			children = (
+				EE9AC0341CEF90E10083E1BE /* DataViewController.h */,
+				EE9AC0351CEF90E10083E1BE /* DataViewController.m */,
+				EE9AC03A1CEF9D290083E1BE /* DatePickerViewController.h */,
+				EE9AC03B1CEF9D290083E1BE /* DatePickerViewController.m */,
+				EE9AC03D1CEFA0060083E1BE /* EducationViewController.h */,
+				EE9AC03E1CEFA0060083E1BE /* EducationViewController.m */,
+			);
+			name = Popovers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9AC0271CEF4D990083E1BE /* LaunchScreen.storyboard in Resources */,
+				EE9AC0321CEF5EC10083E1BE /* Storyboard.storyboard in Resources */,
 				EE9AC0241CEF4D990083E1BE /* Assets.xcassets in Resources */,
 				EE9AC01F1CEF4D990083E1BE /* Main.storyboard in Resources */,
 			);
@@ -153,9 +198,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9AC03C1CEF9D290083E1BE /* DatePickerViewController.m in Sources */,
+				EE9AC0301CEF57850083E1BE /* DetailViewController.m in Sources */,
+				EE9AC0391CEF92810083E1BE /* DataTableViewController.m in Sources */,
 				EE9AC01C1CEF4D990083E1BE /* ViewController.m in Sources */,
 				EE9AC0191CEF4D990083E1BE /* AppDelegate.m in Sources */,
+				EE9AC03F1CEFA0060083E1BE /* EducationViewController.m in Sources */,
 				EE9AC0161CEF4D990083E1BE /* main.m in Sources */,
+				EE9AC0361CEF90E10083E1BE /* DataViewController.m in Sources */,
 				EE9AC0221CEF4D990083E1BE /* PopoverControl.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +317,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopoverControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.PopoverControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -278,9 +330,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopoverControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SealDeveloper.PopoverControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -303,6 +357,7 @@
 				EE9AC02D1CEF4D990083E1BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

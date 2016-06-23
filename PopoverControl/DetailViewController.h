@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  PopoverControl
 //
 //  Created by Игорь Талов on 20.05.16.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
--(IBAction)addAction:(UIBarButtonItem* )sender;
--(IBAction)pressMe:(UIButton* )sender;
-
+@interface DetailViewController : UIViewController
 
 @end
-
