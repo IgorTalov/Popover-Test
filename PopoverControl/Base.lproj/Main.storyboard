@@ -5,42 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAe-Nj-hxG">
-                                <rect key="frame" x="128" y="225" width="64" height="30"/>
-                                <state key="normal" title="Press me"/>
-                                <connections>
-                                    <action selector="pressMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O4G-kS-OTw"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="HVz-e5-SMW">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="FGv-p5-oeU">
-                            <connections>
-                                <action selector="addAction:" destination="BYZ-38-t0r" id="lQt-G2-StG"/>
-                                <segue destination="mWH-45-sM3" kind="show" identifier="showDetail" id="OcH-dM-uCA"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="280" y="309"/>
-        </scene>
         <!--Personal Data-->
         <scene sceneID="a7I-y0-fob">
             <objects>
@@ -317,52 +281,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdZ-vT-dw3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2044" y="1574"/>
-        </scene>
-        <!--Detail View Controller-->
-        <scene sceneID="aij-VN-SVw">
-            <objects>
-                <viewController storyboardIdentifier="DetailViewController" id="mWH-45-sM3" customClass="DetailViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="vpA-8P-Wrq"/>
-                        <viewControllerLayoutGuide type="bottom" id="pwf-qb-vjG"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pUJ-nl-UlS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Detail" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSJ-0y-BFI">
-                                <rect key="frame" x="20" y="20" width="280" height="440"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JVM-yK-MC5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="763" y="309"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="4xL-R1-D61">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vv0-Tu-A7F" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1zy-J8-zTP">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="goa-2x-eJD"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PzZ-St-ZFq" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-225" y="309"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="g5P-nq-HE5">
