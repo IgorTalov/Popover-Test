@@ -3,7 +3,7 @@
 //  PopoverControl
 //
 //  Created by Игорь Талов on 20.05.16.
-//  Copyright © 2016 Игорь Талов. All rights reserved.
+//  Copyright © 2016 Игорь Талов.
 //
 
 #import <UIKit/UIKit.h>
