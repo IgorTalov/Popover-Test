@@ -24,7 +24,7 @@
 -(IBAction)doneAction:(UIBarButtonItem* )sender{
 
     NSDateFormatter* formatter = [[NSDateFormatter alloc]init];
-    [formatter setDateFormat:@"MMM dd yyyy"];
+    [formatter setDateFormat:@"dd MMM yyyy"];
     NSString* string = [formatter stringFromDate:self.datePicker.date];
     [self.delegate setDateFromDatePicker:string];
     [self dismissViewControllerAnimated:YES completion:nil];
