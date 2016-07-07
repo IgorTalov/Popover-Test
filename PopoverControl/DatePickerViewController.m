@@ -36,6 +36,7 @@
     [formatter setDateFormat:@"dd MMM yyyy"];
     NSString* string = [formatter stringFromDate:self.datePicker.date];
     [self.delegate setDateFromDatePicker:string];
+    NSLog(@"%@", string);
 }
 
 
