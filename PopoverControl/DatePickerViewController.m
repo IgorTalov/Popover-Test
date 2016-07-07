@@ -37,6 +37,7 @@
     NSString* string = [formatter stringFromDate:self.datePicker.date];
     [self.delegate setDateFromDatePicker:string];
     NSLog(@"%@", string);
+    NSLog(@"Log");
 }
 
 
